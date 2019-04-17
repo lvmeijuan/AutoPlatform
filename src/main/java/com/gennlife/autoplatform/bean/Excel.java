@@ -63,7 +63,7 @@ public class Excel {
 		} catch (FileNotFoundException e) {
 			e.printStackTrace();
 		}
-		String fileExtensionName = getFileName().substring(getFileName().lastIndexOf("."));
+		String fileExtensionName = getFileName().substring(getFileName().lastIndexOf(".")); //获取文件名.之后的内容
 		Workbook workbook = null;
 		if (fileExtensionName.equals(".xlsx")) {
 			try {

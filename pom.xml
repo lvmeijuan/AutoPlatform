@@ -2,9 +2,34 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>com.gennlife</groupId>
-	<artifactId>crf_mysql</artifactId>
+	<artifactId>AutoPlatform</artifactId>
 
 	<version>0.0.1-SNAPSHOT</version>
+
+	<!-- 如果不添加此节点，mybatis的mapper.xml文件都会被漏掉。 -->
+	<build>
+		<plugins>
+			<!-- 资源文件拷贝插件 -->
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-resources-plugin</artifactId>
+				<version>3.2.2</version>
+				<configuration>
+					<encoding>UTF-8</encoding>
+				</configuration>
+			</plugin>
+		</plugins>
+		<resources>
+			<resource>
+				<directory>src/main/java</directory>
+				<includes>
+					<include>**/*.properties</include>
+					<include>**/*.xml</include>
+				</includes>
+				<filtering>false</filtering>
+			</resource>
+		</resources>
+	</build>
 
 	<!-- logback配置版本 -->
 	<!-- <properties> <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding> 
@@ -419,4 +444,4 @@
 	</dependencies>
 	<packaging>war</packaging>
 </project>
- 
+

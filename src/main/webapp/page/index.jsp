@@ -48,7 +48,7 @@
 		<div class="footer">
 			<span>联系电话：xxxxxx</span> 
 			<span>传真号码：xxxxxx</span> 
-			<span>地址：xxxxxx</span>
+			<span>地址：海淀新技术大厦</span>
 			<!-- <span>版权：xxxxxx</span> -->
 		</div>
 	</div>

@@ -163,8 +163,8 @@ public class LoginController {
 	
 	
 	/** 
-	* @Title: loginShiro 
-	* @Description: 使用shiro登录
+	* @Title: loginShiro
+	 * 	* @Description: 使用shiro登录
 	* @param: @param username
 	* @param: @param password
 	* @param: @param verifyCode

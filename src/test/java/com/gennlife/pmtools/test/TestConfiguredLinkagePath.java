@@ -7,7 +7,7 @@ import com.gennlife.pmtools.ConfiguredLinkagePath;
 
 public class TestConfiguredLinkagePath {
 
-	private String filePath = "E:\\yujie\\TranslateToEnglish";
+	private String filePath = "D:\\yujie\\TranslateToEnglish";
 	
 	private String fileName = "模板结构-广东省人民结直肠癌淼淼.xlsx";
 	private String fileName2 = "结直肠癌字段对接表.xlsx";

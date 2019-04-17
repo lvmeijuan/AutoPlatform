@@ -14,7 +14,7 @@ import com.gennlife.pmtools.TranslateToEnglish;
 
 public class TestTranslateToEnglish {
 
-	private String filePath = "E:\\yujie\\TranslateToEnglish\\1";
+	private String filePath = "D:\\yujie\\TranslateToEnglish\\1";
 	
 	//配置表
 	private String fileName = "模板结构-房颤-给淼淼2.xlsx";

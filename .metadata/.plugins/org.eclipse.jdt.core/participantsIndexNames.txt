@@ -1,0 +1,23 @@
+INDEX VERSION 1.127
+D:\workspace\AutoPlatform\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2561276176.index
+\crf_mysql\src\main\java
+D:\workspace\AutoPlatform\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\734637691.index
+\crf_mysql\src\main\java
+D:\workspace\AutoPlatform\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1005461222.index
+\crf_mysql\src\main\java
+D:\workspace\AutoPlatform\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2243468492.index
+\crf_mysql\src\main\java
+D:\workspace\AutoPlatform\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\244881128.index
+\crf_mysql\src\main\java
+D:\workspace\AutoPlatform\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2998992833.index
+\crf_mysql\src\main\java
+D:\workspace\AutoPlatform\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3296037679.index
+\crf_mysql\src\main\java
+D:\workspace\AutoPlatform\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1019909134.index
+\crf_mysql\src\main\java
+D:\workspace\AutoPlatform\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3776201413.index
+\crf_mysql\src\main\java
+D:\workspace\AutoPlatform\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\556076306.index
+\crf_mysql\src\main\java
+D:\workspace\AutoPlatform\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1423716668.index
+\crf_mysql\src\main\java

@@ -1,0 +1,7 @@
+INDEX VERSION 1.3+D:\workspace\AutoPlatform\.metadata\.plugins\org.eclipse.wst.jsdt.core\indexes
+646732382.index
+2374306278.index
+1950594316.index
+4014054052.index
+397212218.index
+3129749999.index

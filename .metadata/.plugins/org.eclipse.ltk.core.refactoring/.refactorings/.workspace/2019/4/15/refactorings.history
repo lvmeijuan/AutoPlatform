@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Delete resource &apos;crf_mysql&apos;" deleteContents="true" description="Delete resource &apos;crf_mysql&apos;" element1="/crf_mysql" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1554799838190"/>
+</session>

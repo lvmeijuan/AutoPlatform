@@ -91,6 +91,8 @@ public class ReadExcel {
                     student.setName(getValue(name));
                     student.setAge(getValue(age));
                     student.setScore(Float.valueOf(getValue(score)));
+
+
                     list.add(student);
 
                 }
@@ -148,7 +150,6 @@ public class ReadExcel {
     }
 
     @SuppressWarnings("static-access")
-
 
     private String getValue(XSSFCell xssfRow) {
         if (xssfRow.getCellType() == xssfRow.CELL_TYPE_BOOLEAN) {

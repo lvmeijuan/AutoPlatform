@@ -15,26 +15,27 @@ public class InsertExcel {
     /**
      *
      * @param xls
-     *            XlsDto实体类的一个对象
+     *            Student实体类的一个对象
      * @throws Exception
      *             在导入Excel的过程中抛出异常
      */
-    public static void xlsDto2Excel(List<Student> xls) throws Exception {
-        // 获取总列数
+    public static void student2Excel(List<Student> xls) throws Exception {
+        // 获取总行数
         int CountColumnNum = xls.size();
+        System.out.println(CountColumnNum);
         // 创建Excel文档
         HSSFWorkbook hwb = new HSSFWorkbook();
-        Student xlsDto = null;
+        Student student = null;
         // sheet 对应一个工作页
         HSSFSheet sheet = hwb.createSheet("pldrxkxxmb");
         HSSFRow firstrow = sheet.createRow(0); // 下标为0的行开始
         HSSFCell[] firstcell = new HSSFCell[CountColumnNum];
-        String[] names = new String[CountColumnNum];
+        String[] names = new String[4];
         names[0] = "学号";
         names[1] = "姓名";
         names[2] = "年龄";
         names[3] = "成绩";
-        for (int j = 0; j < CountColumnNum; j++) {
+        for (int j = 0; j < 4; j++) {
             firstcell[j] = firstrow.createCell(j);
             firstcell[j].setCellValue(new HSSFRichTextString(names[j]));
         }
@@ -42,18 +43,18 @@ public class InsertExcel {
             // 创建一行
             HSSFRow row = sheet.createRow(i + 1);
             // 得到要插入的每一条记录
-            xlsDto = xls.get(i);
+            student = xls.get(i);
             for (int colu = 0; colu <= 3; colu++) {
                 // 在一行内循环
                 HSSFCell xm = row.createCell(0);
-                xm.setCellValue(xlsDto.getNo());
+                xm.setCellValue(student.getNo());
                 HSSFCell yxsmc = row.createCell(1);
-                yxsmc.setCellValue(xlsDto.getName());
+                yxsmc.setCellValue(student.getName());
                 HSSFCell kcm = row.createCell(2);
-                kcm.setCellValue(xlsDto.getAge());
+                kcm.setCellValue(student.getAge());
                 HSSFCell cj = row.createCell(3);
-                cj.setCellValue(xlsDto.getScore());
-               /* (xlsDto.getMessage());*/
+                cj.setCellValue(student.getScore());
+               /* (student.getMessage());*/
             }
         }
         // 创建文件输出流，准备输出电子表格

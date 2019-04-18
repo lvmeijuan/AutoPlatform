@@ -34,7 +34,7 @@ public class Client {
       //写入excel
        Student xls=null;
                 try {
-                    InsertExcel.xlsDto2Excel(list);
+                    InsertExcel.student2Excel(list);
                 } catch (Exception e) {
                     e.printStackTrace();
                 }
